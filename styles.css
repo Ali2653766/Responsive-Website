@@ -17,7 +17,7 @@ body::after{
     height: 100%;
     background-color: red;
     position: absolute;
-    clip-path: circle(40% at right 70%);
+    clip-path: circle(30% at right 60%);
     z-index: -1;
 
 }
@@ -112,6 +112,6 @@ nav ul li a:hover{
         width: 250px;
     }
     body::after{
-        clip-path: circle(50% at bottom);
+        clip-path: circle(35% at bottom);
     }
 }
